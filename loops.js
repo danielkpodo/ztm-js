@@ -22,9 +22,13 @@ const friends = ["Derrick", "Bright", "Alex"];
 //   initialValue++;
 // }
 
-let i = 0;
+// let i = 0;
 
-do {
-  console.log(friends[i]);
-  i++;
-} while (i < friends.length);
+// do {
+//   console.log(friends[i]);
+//   i++;
+// } while (i < friends.length);
+
+friends.forEach((friend, i) => {
+  console.log(friend, i);
+});
