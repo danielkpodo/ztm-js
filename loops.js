@@ -21,3 +21,10 @@ const friends = ["Derrick", "Bright", "Alex"];
 //   console.log(friends[initialValue]);
 //   initialValue++;
 // }
+
+let i = 0;
+
+do {
+  console.log(friends[i]);
+  i++;
+} while (i < friends.length);
