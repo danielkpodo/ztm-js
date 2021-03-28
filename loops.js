@@ -9,4 +9,8 @@
 const friends = ["Derrick", "Bright", "Alex"];
 
 //using map
-friends.map((friend, i) => console.log(friend, i));
+// friends.map((friend, i) => console.log(friend, i));
+
+for (let i = 0; i < friends.length; i++) {
+  console.log(friends[i]);
+}
