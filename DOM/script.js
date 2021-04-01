@@ -25,3 +25,6 @@ console.log(content);
 // const random = li.getAttribute("random");
 // // console.log(random);
 // li.setAttribute("random", "90000000");
+
+// Changing styles
+//old way is to do this li.style.background = "red". This does not meet separation of concerns
