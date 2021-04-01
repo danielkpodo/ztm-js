@@ -1,8 +1,8 @@
 // Js selectors
 
 //1. getElemtsByClassName - array
-const content = document.getElementsByClassName("content");
-console.log(content);
+// const content = document.getElementsByClassName("content");
+// console.log(content);
 
 //2. getElementsByTagName - array
 //3. getElementById - singular
@@ -28,3 +28,22 @@ console.log(content);
 
 // Changing styles
 //old way is to do this li.style.background = "red". This does not meet separation of concerns
+
+//BETTER WAY OF STYLING
+const h1 = document.querySelector("h1");
+h1.className = "coolTitle";
+
+//To check a list of classses use classList
+//classList.add - use to add a new class
+// classList.remove("done") - use to remove a class
+//classList.toggle('done') - use to turn on or off
+
+const li = document.querySelector("li");
+
+li.addEventListener("click", () => {
+  li.classList.toggle("done");
+});
+
+//we can also select the children and parentElement of items on a page
+
+// It is very important for us to cache selectors
