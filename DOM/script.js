@@ -47,3 +47,14 @@ li.addEventListener("click", () => {
 //we can also select the children and parentElement of items on a page
 
 // It is very important for us to cache selectors
+
+const bgChanger = document.querySelector("#bg-toggle");
+const body = document.getElementsByTagName("body")[0];
+console.log(body);
+
+bgChanger.addEventListener("click", function () {
+  body.classList.toggle("dark");
+});
+
+//How to insert a text in between a created element
+li.appendChild(document.createTextNode("The Lord is good"));
