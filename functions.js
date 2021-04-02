@@ -7,7 +7,7 @@ For abstraction purposes make sure your func returns true
 
 function checkDriverAge(age) {
   if (!validInput(age)) {
-    return console.log("Please enter a number");
+    return console.log("Age must be an integer");
   }
   if (age < 18) return console.log("Too young to drive");
   if (age > 18) return console.log("Powering on, drive fast");
