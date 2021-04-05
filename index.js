@@ -6,3 +6,9 @@ const result = calCulateSum([90, 80, 80]);
 console.info("Overall sum", result);
 
 let salaries = [100, 900, 800, 120];
+let total = 0;
+for (salary of salaries) {
+  total += salary;
+}
+
+console.log(total);
