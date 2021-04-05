@@ -12,3 +12,5 @@ for (salary of salaries) {
 }
 
 console.log(total);
+
+const ages = [23, 9, 89, 70, 73];
