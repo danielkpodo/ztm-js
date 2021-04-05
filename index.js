@@ -11,6 +11,10 @@ for (salary of salaries) {
   total += salary;
 }
 
-console.log(total);
-
 const ages = [23, 9, 89, 70, 73];
+let final = 0;
+for (let i = 0; i < ages.length; i++) {
+  final += ages[i];
+}
+
+console.log(final);
