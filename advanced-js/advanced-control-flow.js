@@ -16,5 +16,21 @@ function detectDriverType(age) {
   return response;
 }
 
-const result = detectDriverType(27);
+const result = detectDriverType(270);
 console.log(result);
+
+//How to properly use switch statement with comparison operators
+function gradeCalculator(grade) {
+  switch (true) {
+    case grade >= 90: //This evaluates to a boolean expression that is why true is used in the switch parenthesis
+      return "A";
+    case grade >= 80:
+      return "B";
+    case grade >= 70:
+      return "C";
+    case grade >= 60:
+      return "D";
+    case grade <= 59:
+      return "F";
+  }
+}
