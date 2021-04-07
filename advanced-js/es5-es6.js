@@ -27,3 +27,25 @@ const claim = {
 };
 
 console.log(claim[190]);
+
+//When name and property are the same we use only the key
+
+//3. Template Strings ``
+
+//4 Default arguments: It is good to have default arguments
+function greeting(name, age = 90) {
+  message = `Hello ${name} your age is ${age}`;
+  return message;
+}
+
+console.log(greeting("Daniel"));
+
+//Datatype => Symbol, They create completey unique type, Use mostly as object properties
+
+const skill = {
+  name: Symbol("Daniel"),
+};
+
+console.log(skill.name);
+
+// 5. Arrow functions
