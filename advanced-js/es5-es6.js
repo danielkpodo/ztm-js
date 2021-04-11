@@ -49,3 +49,4 @@ const skill = {
 console.log(skill.name);
 
 // 5. Arrow functions
+const add = (a, b) => a + b;
