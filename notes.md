@@ -8,3 +8,9 @@
 ## Look Backs
 
 - Read more about symbols
+
+Advanced functions
+
+- Clousres
+- Currying
+- Compose
